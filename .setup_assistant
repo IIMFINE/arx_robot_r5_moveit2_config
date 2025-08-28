@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: arx_r5_controller
+    relative_path: urdf/R5_master.urdf
+  srdf:
+    relative_path: config/r5_urdf.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1756382948
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
