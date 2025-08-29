@@ -5,9 +5,9 @@ moveit_setup_assistant_config:
   srdf:
     relative_path: config/r5_urdf.srdf
   package_settings:
-    author_name: ""
-    author_email: ""
-    generated_timestamp: 1756382948
+    author_name: bubble
+    author_email: pcb1712379335@gmail.com
+    generated_timestamp: 1756384450
   control_xacro:
     command:
       - position
